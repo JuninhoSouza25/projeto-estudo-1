@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-white) !important;
+}
+
+@import 'bootstrap/scss/bootstrap';
+@import './app/styles/variables';
+@import './app/styles/spacing';
+@import './app/styles/typography';
+@import './app/styles/components';

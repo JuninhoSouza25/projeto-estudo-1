@@ -1,0 +1,39 @@
+#hero-section-container{
+  background-image: url(../../../../public/hero-ri.jpg);
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+
+  h1{
+    font-size: 48px;
+  }
+
+  p{
+    color: var(--color-white);
+  }
+
+  .box-logo{
+    width: 260px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .box-icon{
+    width: 35px;
+    height: 20px;
+    position: relative;
+
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}

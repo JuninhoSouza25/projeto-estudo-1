@@ -1,0 +1,70 @@
+button, .button {
+    text-decoration: none;
+    border: 1px solid var(--color-bg-black);
+    border-radius: 25px;
+    font-size: 1.2em;
+    padding: {
+        top: .3em;
+        bottom: .3em;
+        right: 1em;
+        left: 1em
+    };
+    cursor: pointer;
+    transition: ease all .6s;
+    color: var(--color-black) !important;
+    font-weight: 500;
+
+    &:hover{
+        background-color: var(--color-black);
+        color: var(--color-primary) !important;
+    }
+}
+
+.button-2 {
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 11px;
+    font-size: 1em;
+    padding: {
+        top: .7em;
+        bottom: .7em;
+        right: 2.5em;
+        left: 2.5em
+    };
+    cursor: pointer;
+    background-color: var(--color-primary);
+    transition: ease all .6s;
+    color: var(--color-white) !important;
+    font-weight: 700;
+
+    
+    &:hover{
+    background-color: var(--color-primary-dark);
+    }
+}
+
+.button-3 {
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1em;
+    padding: {
+        top: .7em;
+        bottom: .7em;
+        right: 2.5em;
+        left: 2.5em
+    };
+    border-radius: 11px;
+    cursor: pointer;
+    background-color: var(--color-white);
+    transition: ease all .6s;
+    color: var(--color-primary) !important;
+    font-weight: 700;
+
+    &:hover{
+        background-color: var(--color-primary-dark);
+        }
+}

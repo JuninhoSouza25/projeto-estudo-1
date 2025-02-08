@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+:root{
+    // Colors
+
+    --color-primary:#3454D1;
+    --color-primary-alt:#f8dfcd;
+    --color-primary-dark: #0d0630;
+    --color-primary-dark-2: #6e3e1c;
+    --color-primary-light:#faf6f2;
+    --color-secondary: #fafac1;
+    --color-body:#585B5F;
+    --color-grey:#afaeae;
+    --color-light:#f9f9f9;
+    --color-black: #212529;
+    --color-bg-black: #131220;
+    --color-white: #ffffff;
+    --color-white-2: #ece9e4;
+
+    // Fonts
+
+    --font-title: "Gabarito", serif;
+    --font-title-2: "Gabarito", serif;
+    --font-principal: "Gabarito", serif;
+    --font-hero: "Gabarito", serif;
+
+    --transition: all 0.6s ease;
+}
